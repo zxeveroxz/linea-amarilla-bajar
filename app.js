@@ -79,11 +79,6 @@ const xlsx = require('xlsx');
             
             await page.evaluate(() => new Promise(resolve => setTimeout(resolve, 5000)));
 
-            // Esperar 3 segundos antes de realizar una acción
-           // await page.evaluate(() => new Promise(resolve => setTimeout(resolve, 5000)));
-            //await page.waitForNavigation();
-            //await page.waitForNavigation();
-
             //console.log(`Fecha: ${fecha}, Serie: ${nombre}, número: ${edad}, monto: ${monto}`);
         } catch (error) {
             console.error('Error en la iteración:', error);

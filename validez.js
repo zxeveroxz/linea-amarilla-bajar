@@ -98,7 +98,7 @@ const xlsx = require('xlsx');
             const wanterior = await page.$('input[name="wanterior"]');        
 
             //await page.waitForSelector("wanterior");
-            await page.waitForNavigation();
+            await page.waitForNavigation(); 
 
             // Esperar 5 segundos después del clic para asegurar que la descarga se complete
             
