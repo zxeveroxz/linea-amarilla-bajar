@@ -104,10 +104,10 @@ const xlsx = require('xlsx');
             
             
 
-            const nombreArchivoPDF = `SUNAT_${ruc}_${serie}-${numero}.pdf`;
+            const nombreArchivoPDF = `./PDF/SUNAT_${ruc}_${serie}-${numero}.pdf`;
 
             // Guardar la página como archivo PDF
-            await page.pdf({ path: nombreArchivoPDF, format: 'A4' }); 
+            await page.pdf({ path: nombreArchivoPDF, format: 'A4',displayHeaderFooter:true,printBackground:true }); 
 
             await page.evaluate(() => new Promise(resolve => setTimeout(resolve, 5000)));
 
@@ -123,5 +123,5 @@ const xlsx = require('xlsx');
     }
 
     // Cerrar el navegador después de procesar todas las filas
-   // await browser.close();
+    await browser.close();
 })();
