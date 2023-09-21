@@ -45,7 +45,7 @@ const xlsx = require('xlsx');
             const fecha = f.join('/');
             
             const serie = fila[1];//.slice(1);
-            const numero = fila[2];
+            const numero = fila[2].toString();
             const monto = fila[3]+"";
             const ruc = fila[4]+"";
    

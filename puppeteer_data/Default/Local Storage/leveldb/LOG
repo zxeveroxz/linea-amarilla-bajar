@@ -1,0 +1,15 @@
+2023/08/25-16:39:27.293 6840 Reusing MANIFEST D:\xampp\htdocs\GIT\linea-amarilla-bajar\puppeteer_data\Default\Local Storage\leveldb/MANIFEST-000001
+2023/08/25-16:39:27.303 6840 Recovering log #22
+2023/08/25-16:39:27.307 6840 Reusing old log D:\xampp\htdocs\GIT\linea-amarilla-bajar\puppeteer_data\Default\Local Storage\leveldb/000022.log 
+2023/08/25-16:44:35.035 1d9c Level-0 table #26: started
+2023/08/25-16:44:35.119 1d9c Level-0 table #26: 35023 bytes OK
+2023/08/25-16:44:35.167 1d9c Delete type=0 #22
+2023/08/25-16:44:35.167 1d9c Compacting 4@0 + 1@1 files
+2023/08/25-16:44:35.222 1d9c Generated table #27@0: 69 keys, 12897 bytes
+2023/08/25-16:44:35.222 1d9c Compacted 4@0 + 1@1 files => 12897 bytes
+2023/08/25-16:44:35.249 1d9c compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/08/25-16:44:35.250 1d9c Delete type=2 #14
+2023/08/25-16:44:35.250 1d9c Delete type=2 #17
+2023/08/25-16:44:35.250 1d9c Delete type=2 #20
+2023/08/25-16:44:35.250 1d9c Delete type=2 #23
+2023/08/25-16:44:35.251 1d9c Delete type=2 #26

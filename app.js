@@ -44,7 +44,8 @@ const xlsx = require('xlsx');
             const fecha = f.join('/');
             
             const serie = fila[1].slice(1);
-            const numero = fila[2];
+            const numero = fila[2].toString();
+            //console.log(numero);
             //const monto = fila[3];
 
    
@@ -64,9 +65,9 @@ const xlsx = require('xlsx');
 
             await page.type('#DefaultContent_txtNroTicket', numero);
 
-            
+            //await page.evaluate(() => new Promise(resolve => setTimeout(resolve, 50000)));
            
-           
+           //return false;
 
            await page.click('#DefaultContent_btnConsultar');
 
@@ -86,5 +87,5 @@ const xlsx = require('xlsx');
     }
 
     // Cerrar el navegador después de procesar todas las filas
-    await browser.close();
+    //await browser.close();
 })();
