@@ -1,2 +1,5 @@
 .node_modules
 ./node_modules/
+
+puppeteer_data
+.puppeteer_data/
